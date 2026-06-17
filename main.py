@@ -1,7 +1,9 @@
 """Project Management CLI - Final version"""
 import click
+
 from rich.console import Console
 from rich.table import Table
+
 from models.user import User
 from models.project import Project
 from models.task import Task
